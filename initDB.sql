@@ -59,5 +59,6 @@ CREATE TABLE developers_projects (
 	FOREIGN KEY (developer_id) REFERENCES developers (id),
 	FOREIGN KEY (project_id) REFERENCES projects (id)
 );
+
 ALTER TABLE projects
-ADD date DATE;
+	ADD date DATE;
